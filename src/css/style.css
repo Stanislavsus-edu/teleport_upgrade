@@ -1,0 +1,29 @@
+body {
+    color: #999;
+}
+
+.goblin {
+    cursor: url('../img/mallet.png'), pointer;
+}
+
+.counter {
+    color: #000;
+    font-size: 20px;
+}
+
+.check {
+    font-weight: bold;
+}
+
+.goblin .row {
+    display: flex;
+}
+
+.goblin .col {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin: 2px;
+    padding: 2px;
+}
